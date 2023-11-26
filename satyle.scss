@@ -147,13 +147,11 @@ main {
             width: 90%;
             height: 90%;
             margin: auto;
-            border: 1px solid pink;
             color: #fff;
 
             .we_do_first {
                 width: 100%;
-                height: 55%;
-                border: 1px solid white;
+                height: 50%;
                 display: flex;
 
                 .enter_btn {
@@ -197,7 +195,7 @@ main {
 
             .we_do_second {
                 width: 100%;
-                height: 45%;
+                height: 50%;
                 border: 1px solid black;
             }
         }
@@ -561,10 +559,12 @@ main {
 
                         button {
                             margin-top: 0;
+                            margin-left: 0;
                             width: 280px;
                         }
 
                         h1 {
+                            margin-left: 0;
                             margin-left: 5%;
                             font-size: 52px;
                         }
@@ -748,18 +748,20 @@ main {
             .cunbe_we_do {
                 .we_do_first {
                     .enter_btn {
-                        height: 38%;
+                        height: 37%;
                         button{
+                            width: 200px;
                             margin-top: 0;
                         }
                         h1 {
-                            font-size: 45px;
+                            font-size: 40px;
                         }
                     }
 
                     .about_we_do {
-                        height: 62%;
+                        height: 63%;
                         p{
+                            line-height: 20px;
                             font-size: 15px;
                         }
                     }
