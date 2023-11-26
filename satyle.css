@@ -114,25 +114,68 @@ main .plane_img {
   z-index: 1 !important;
   background-image: url(https://media.cntraveller.com/photos/62da82bf0b87e86bd3c3bc24/16:9/w_1920,c_limit/airport-GettyImages-1333152471.jpeg);
 }
-main .plane_img img {
-  width: 100%;
-  height: 100%;
-  rotate: 180deg;
-  -o-object-fit: cover;
-     object-fit: cover;
-  background-position: center;
-  background-size: cover;
-}
 main .What_we_do {
   position: relative;
-}
-main .What_we_do .i {
   z-index: 2111 !important;
-  margin-top: -100px;
+  margin-top: -90px;
   width: 100%;
   height: 700px;
   background-color: #FF3333;
   border-radius: 100px 100px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .What_we_do .cunbe_we_do {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  border: 1px solid pink;
+  color: #fff;
+}
+main .What_we_do .cunbe_we_do .we_do_first {
+  width: 100%;
+  height: 55%;
+  border: 1px solid white;
+  display: flex;
+}
+main .What_we_do .cunbe_we_do .we_do_first .enter_btn {
+  width: 40%;
+  height: 100%;
+  line-height: 100px;
+}
+main .What_we_do .cunbe_we_do .we_do_first .enter_btn button {
+  margin-left: 5%;
+  margin-top: 50px;
+  width: 300px;
+  height: 50px;
+  background: none;
+  border: none;
+  border: 1px solid white;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+main .What_we_do .cunbe_we_do .we_do_first .enter_btn h1 {
+  margin-left: 5%;
+  font-size: 56px;
+}
+main .What_we_do .cunbe_we_do .we_do_first .about_we_do {
+  width: 60%;
+  height: 100%;
+}
+main .What_we_do .cunbe_we_do .we_do_first .about_we_do p {
+  margin-top: 50px;
+  font-size: 25px;
+  font-family: "IBM Plex Sans";
+  font-weight: 100;
+  line-height: 40px;
+}
+main .What_we_do .cunbe_we_do .we_do_second {
+  width: 100%;
+  height: 45%;
+  border: 1px solid black;
 }
 
 @media (max-width: 1800px) {
@@ -234,6 +277,13 @@ main .What_we_do .i {
   main .make_it_fly .make_2 p {
     font-size: 20px;
   }
+  main .What_we_do .cunbe_we_do .we_do_first .about_we_do p {
+    margin-top: 50px;
+    font-size: 22px;
+    font-family: "IBM Plex Sans";
+    font-weight: 100;
+    line-height: 35px;
+  }
 }
 @media (max-width: 1200px) {
   header .head .logo {
@@ -274,6 +324,20 @@ main .What_we_do .i {
   }
   main .make_it_fly .make_2 p {
     font-size: 18px;
+  }
+  main .What_we_do .cunbe_we_do .we_do_first .enter_btn button {
+    width: 280px;
+  }
+  main .What_we_do .cunbe_we_do .we_do_first .enter_btn h1 {
+    margin-left: 5%;
+    font-size: 52px;
+  }
+  main .What_we_do .cunbe_we_do .we_do_first .about_we_do p {
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: "IBM Plex Sans";
+    font-weight: 100;
+    line-height: 30px;
   }
 }
 @media (max-width: 992px) {
@@ -326,6 +390,40 @@ main .What_we_do .i {
   main .make_it_fly .make_2 p {
     font-size: 18px;
   }
+  main .What_we_do .cunbe_we_do .we_do_first {
+    flex-direction: column;
+    align-items: center;
+  }
+  main .What_we_do .cunbe_we_do .we_do_first .enter_btn {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main .What_we_do .cunbe_we_do .we_do_first .enter_btn button {
+    margin-top: 0;
+    width: 280px;
+  }
+  main .What_we_do .cunbe_we_do .we_do_first .enter_btn h1 {
+    margin-left: 5%;
+    font-size: 52px;
+  }
+  main .What_we_do .cunbe_we_do .we_do_first .about_we_do {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .What_we_do .cunbe_we_do .we_do_first .about_we_do p {
+    margin-top: 0;
+    text-align: center;
+    font-size: 18px;
+    font-family: "IBM Plex Sans";
+    font-weight: 100;
+    line-height: 30px;
+  }
 }
 @media (max-width: 776px) {
   header .head .logo {
@@ -365,6 +463,18 @@ main .What_we_do .i {
   main .make_it_fly .make_2 p {
     font-size: 18px;
   }
+  main .What_we_do .cunbe_we_do .we_do_first .enter_btn {
+    height: 45%;
+  }
+  main .What_we_do .cunbe_we_do .we_do_first .enter_btn button {
+    height: 50px;
+  }
+  main .What_we_do .cunbe_we_do .we_do_first .enter_btn h1 {
+    font-size: 50px;
+  }
+  main .What_we_do .cunbe_we_do .we_do_first .about_we_do {
+    height: 55%;
+  }
 }
 @media (max-width: 576px) {
   main .make_it_fly {
@@ -383,6 +493,21 @@ main .What_we_do .i {
   main .make_it_fly .make_2 p {
     font-size: 14px;
   }
+  main .What_we_do {
+    height: 800px;
+  }
+  main .What_we_do .cunbe_we_do .we_do_first .enter_btn {
+    height: 40%;
+  }
+  main .What_we_do .cunbe_we_do .we_do_first .enter_btn button {
+    height: 50px;
+  }
+  main .What_we_do .cunbe_we_do .we_do_first .enter_btn h1 {
+    font-size: 50px;
+  }
+  main .What_we_do .cunbe_we_do .we_do_first .about_we_do {
+    height: 55%;
+  }
 }
 @media (max-width: 470px) {
   main .make_it_fly {
@@ -393,5 +518,20 @@ main .What_we_do .i {
   }
   main .make_it_fly .make_2 p {
     font-size: 14px;
+  }
+  main .What_we_do .cunbe_we_do .we_do_first .enter_btn {
+    height: 38%;
+  }
+  main .What_we_do .cunbe_we_do .we_do_first .enter_btn button {
+    margin-top: 0;
+  }
+  main .What_we_do .cunbe_we_do .we_do_first .enter_btn h1 {
+    font-size: 45px;
+  }
+  main .What_we_do .cunbe_we_do .we_do_first .about_we_do {
+    height: 62%;
+  }
+  main .What_we_do .cunbe_we_do .we_do_first .about_we_do p {
+    font-size: 15px;
   }
 }/*# sourceMappingURL=satyle.css.map */

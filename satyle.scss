@@ -13,6 +13,7 @@ header {
     height: 100px;
     display: flex;
     justify-content: center;
+
     .head {
         width: 90%;
         height: 140%;
@@ -117,7 +118,7 @@ main {
         }
     }
 
-    .plane_img{
+    .plane_img {
         margin-top: 100px;
         width: 100%;
         height: 700px;
@@ -127,26 +128,78 @@ main {
         background-size: cover;
         z-index: 1 !important;
         background-image: url(https://media.cntraveller.com/photos/62da82bf0b87e86bd3c3bc24/16:9/w_1920,c_limit/airport-GettyImages-1333152471.jpeg);
-        img{
-
-            width: 100%;
-            height: 100%;
-            rotate: 180deg;
-            object-fit: cover;
-            background-position: center;
-            background-size: cover;
-        }
     }
 
-    .What_we_do{
+    .What_we_do {
         position: relative;
-        .i{
-            z-index: 2111 !important;
-            margin-top: -100px;
-            width: 100%;
-            height: 700px;
-            background-color: #FF3333;
-            border-radius: 100px 100px 0 0;
+        z-index: 2111 !important;
+        margin-top: -90px;
+        width: 100%;
+        height: 700px;
+        background-color: #FF3333;
+        border-radius: 100px 100px 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .cunbe_we_do {
+            width: 90%;
+            height: 90%;
+            margin: auto;
+            border: 1px solid pink;
+            color: #fff;
+
+            .we_do_first {
+                width: 100%;
+                height: 55%;
+                border: 1px solid white;
+                display: flex;
+
+                .enter_btn {
+                    width: 40%;
+                    height: 100%;
+                    line-height: 100px;
+
+                    button {
+                        margin-left: 5%;
+                        margin-top: 50px;
+                        width: 300px;
+                        height: 50px;
+                        background: none;
+                        border: none;
+                        border: 1px solid white;
+                        color: white;
+                        border-radius: 10px;
+                        cursor: pointer;
+                    }
+
+                    h1 {
+                        margin-left: 5%;
+                        font-size: 56px;
+                    }
+                }
+
+                .about_we_do {
+                    width: 60%;
+                    height: 100%;
+
+                    p {
+                        margin-top: 50px;
+                        font-size: 25px;
+                        font-family: 'IBM Plex Sans';
+                        font-weight: 100;
+                        line-height: 40px;
+                    }
+                }
+
+            }
+
+            .we_do_second {
+                width: 100%;
+                height: 45%;
+                border: 1px solid black;
+            }
         }
     }
 }
@@ -294,6 +347,7 @@ main {
         .make_it_fly {
             .make_1 {
                 width: 45%;
+
                 h1 {
                     text-align: center;
                     font-size: 6.5rem;
@@ -305,6 +359,23 @@ main {
 
                 p {
                     font-size: 20px;
+                }
+            }
+        }
+
+        .What_we_do {
+            .cunbe_we_do {
+                .we_do_first {
+                    .about_we_do {
+                        p {
+                            margin-top: 50px;
+                            font-size: 22px;
+                            font-family: 'IBM Plex Sans';
+                            font-weight: 100;
+                            line-height: 35px;
+                        }
+                    }
+
                 }
             }
         }
@@ -369,6 +440,34 @@ main {
 
                 p {
                     font-size: 18px;
+                }
+            }
+        }
+
+        .What_we_do {
+            .cunbe_we_do {
+                .we_do_first {
+                    .enter_btn {
+                        button {
+                            width: 280px;
+                        }
+
+                        h1 {
+                            margin-left: 5%;
+                            font-size: 52px;
+                        }
+                    }
+
+                    .about_we_do {
+                        p {
+                            margin-top: 50px;
+                            font-size: 20px;
+                            font-family: 'IBM Plex Sans';
+                            font-weight: 100;
+                            line-height: 30px;
+                        }
+                    }
+
                 }
             }
         }
@@ -445,6 +544,51 @@ main {
                 }
             }
         }
+
+        .What_we_do {
+            .cunbe_we_do {
+                .we_do_first {
+                    flex-direction: column;
+                    align-items: center;
+
+                    .enter_btn {
+                        width: 100%;
+                        height: 45%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+
+                        button {
+                            margin-top: 0;
+                            width: 280px;
+                        }
+
+                        h1 {
+                            margin-left: 5%;
+                            font-size: 52px;
+                        }
+                    }
+
+                    .about_we_do {
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        p {
+                            margin-top: 0;
+                            text-align: center;
+                            font-size: 18px;
+                            font-family: 'IBM Plex Sans';
+                            font-weight: 100;
+                            line-height: 30px;
+                        }
+                    }
+
+                }
+            }
+        }
     }
 }
 
@@ -508,6 +652,28 @@ main {
                 }
             }
         }
+
+        .What_we_do {
+            .cunbe_we_do {
+                .we_do_first {
+                    .enter_btn {
+                        height: 45%;
+
+                        button {
+                            height: 50px;
+                        }
+
+                        h1 {
+                            font-size: 50px;
+                        }
+                    }
+
+                    .about_we_do {
+                        height: 55%;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -534,6 +700,29 @@ main {
                 }
             }
         }
+
+        .What_we_do {
+            height: 800px;
+            .cunbe_we_do {
+                .we_do_first {
+                    .enter_btn {
+                        height: 40%;
+
+                        button {
+                            height: 50px;
+                        }
+
+                        h1 {
+                            font-size: 50px;
+                        }
+                    }
+
+                    .about_we_do {
+                        height: 55%;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -551,6 +740,29 @@ main {
             .make_2 {
                 p {
                     font-size: 14px;
+                }
+            }
+        }
+
+        .What_we_do {
+            .cunbe_we_do {
+                .we_do_first {
+                    .enter_btn {
+                        height: 38%;
+                        button{
+                            margin-top: 0;
+                        }
+                        h1 {
+                            font-size: 45px;
+                        }
+                    }
+
+                    .about_we_do {
+                        height: 62%;
+                        p{
+                            font-size: 15px;
+                        }
+                    }
                 }
             }
         }
