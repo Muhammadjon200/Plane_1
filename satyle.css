@@ -1,0 +1,397 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500;600;700&family=IBM+Plex+Sans:wght@300;400;500&family=Manrope:wght@200&family=Play&family=Rubik:wght@300&family=Smooch+Sans:wght@100&family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.3s ease;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+header .head {
+  width: 90%;
+  height: 140%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .head .logo {
+  width: auto;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+header .head .logo .logo_text h1 {
+  font-size: 44px;
+  font-weight: 800;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: red;
+}
+header .head .head_element {
+  display: flex;
+  align-items: center;
+  gap: 85px;
+}
+header .head .head_element a {
+  text-decoration: none;
+  color: black;
+  font-family: "IBM Plex Sans";
+  font-size: 23px;
+  font-weight: 500;
+}
+header .head .concat_us {
+  display: flex;
+  align-items: center;
+}
+header .head .concat_us .caoncat_btn {
+  width: 165px;
+  height: 50px;
+  background-color: #FF0000;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-size: 19px;
+  font-family: "IBM Plex Sans";
+  cursor: pointer;
+}
+header .head .menu_side_bar {
+  display: none;
+}
+
+main {
+  margin-top: 150px;
+  width: 100%;
+  height: auto;
+}
+main .make_it_fly {
+  margin: auto;
+  width: 90%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+main .make_it_fly .make_1 {
+  width: 55%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+main .make_it_fly .make_1 h1 {
+  font-weight: 500;
+  font-size: 10rem;
+  font-family: "IBM Plex Sans";
+  color: #21272A;
+  transition: 0.3s ease;
+}
+main .make_it_fly .make_2 {
+  width: 45%;
+  height: 90%;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+main .make_it_fly .make_2 p {
+  font-size: 29px;
+  transition: 0.3s ease;
+  line-height: 2;
+}
+main .plane_img {
+  margin-top: 100px;
+  width: 100%;
+  height: 700px;
+  rotate: 180deg;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  z-index: 1 !important;
+  background-image: url(https://media.cntraveller.com/photos/62da82bf0b87e86bd3c3bc24/16:9/w_1920,c_limit/airport-GettyImages-1333152471.jpeg);
+}
+main .plane_img img {
+  width: 100%;
+  height: 100%;
+  rotate: 180deg;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  background-size: cover;
+}
+main .What_we_do {
+  position: relative;
+}
+main .What_we_do .i {
+  z-index: 2111 !important;
+  margin-top: -100px;
+  width: 100%;
+  height: 700px;
+  background-color: #FF3333;
+  border-radius: 100px 100px 0 0;
+}
+
+@media (max-width: 1800px) {
+  main {
+    margin-top: 140px;
+  }
+  main .make_it_fly .make_1 h1 {
+    font-size: 9.5rem;
+  }
+  main .make_it_fly .make_2 {
+    width: 42%;
+  }
+  main .make_it_fly .make_2 p {
+    font-size: 25px;
+  }
+}
+@media (max-width: 1650px) {
+  main {
+    margin-top: 130px;
+  }
+  main .make_it_fly .make_1 h1 {
+    font-size: 8.5rem;
+  }
+  main .make_it_fly .make_2 {
+    gap: 15px;
+    width: 43%;
+  }
+  main .make_it_fly .make_2 p {
+    font-size: 23px;
+  }
+}
+@media (max-width: 1500px) {
+  header .head .logo .logo_text h1 {
+    font-size: 40px;
+    font-weight: 800;
+  }
+  header .head .head_element {
+    gap: 60px;
+  }
+  header .head .head_element a {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  header .head .concat_us .caoncat_btn {
+    width: 165px;
+    height: 50px;
+    font-size: 19px;
+  }
+  main {
+    margin-top: 120px;
+  }
+  main .make_it_fly .make_1 h1 {
+    font-size: 7.5rem;
+  }
+  main .make_it_fly .make_2 {
+    width: 45%;
+  }
+  main .make_it_fly .make_2 p {
+    font-size: 21px;
+  }
+}
+@media (max-width: 1400px) {
+  header .head .logo {
+    gap: 10px;
+  }
+  header .head .logo .logo_img img {
+    width: 65px;
+    height: 65px;
+  }
+  header .head .logo .logo_text h1 {
+    font-size: 30px;
+    font-weight: 800;
+  }
+  header .head .head_element {
+    gap: 50px;
+  }
+  header .head .head_element a {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  header .head .concat_us .caoncat_btn {
+    width: 150px;
+    height: 50px;
+    font-size: 19px;
+  }
+  main {
+    margin-top: 100px;
+  }
+  main .make_it_fly .make_1 {
+    width: 45%;
+  }
+  main .make_it_fly .make_1 h1 {
+    text-align: center;
+    font-size: 6.5rem;
+  }
+  main .make_it_fly .make_2 {
+    width: 55%;
+  }
+  main .make_it_fly .make_2 p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1200px) {
+  header .head .logo {
+    gap: 10px;
+  }
+  header .head .logo .logo_img img {
+    width: 55px;
+    height: 55px;
+  }
+  header .head .logo .logo_text h1 {
+    font-size: 25px;
+    font-weight: 800;
+  }
+  header .head .head_element {
+    gap: 38px;
+  }
+  header .head .head_element a {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  header .head .concat_us .caoncat_btn {
+    width: 125px;
+    height: 50px;
+    font-size: 15px;
+  }
+  main {
+    margin-top: 90px;
+  }
+  main .make_it_fly .make_1 {
+    width: 40%;
+  }
+  main .make_it_fly .make_1 h1 {
+    font-size: 6rem;
+    text-align: center;
+  }
+  main .make_it_fly .make_2 {
+    width: 60%;
+  }
+  main .make_it_fly .make_2 p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 992px) {
+  header .head .logo {
+    gap: 5px;
+  }
+  header .head .logo .logo_img img {
+    width: 40px;
+    height: 40px;
+  }
+  header .head .logo .logo_text h1 {
+    font-size: 18px;
+    font-weight: 800;
+  }
+  header .head .head_element {
+    gap: 25px;
+  }
+  header .head .head_element a {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  header .head .concat_us .caoncat_btn {
+    width: 90px;
+    height: 40px;
+    font-size: 13px;
+  }
+  main {
+    margin-top: 80px;
+  }
+  main .make_it_fly {
+    flex-direction: column;
+    height: 280px;
+    gap: 20px;
+  }
+  main .make_it_fly .make_1 {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  main .make_it_fly .make_1 h1 {
+    font-size: 7rem;
+    display: flex;
+    align-items: center;
+  }
+  main .make_it_fly .make_2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  main .make_it_fly .make_2 p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 776px) {
+  header .head .logo {
+    gap: 5px;
+  }
+  header .head .logo .logo_img img {
+    width: 50px;
+    height: 50px;
+  }
+  header .head .logo .logo_text h1 {
+    font-size: 30px;
+    font-weight: 800;
+  }
+  header .head .head_element {
+    display: none;
+  }
+  header .head .concat_us {
+    display: none;
+  }
+  header .head .menu_side_bar {
+    display: flex;
+  }
+  header .head .menu_side_bar img {
+    cursor: pointer;
+  }
+  main {
+    margin-top: 90px;
+  }
+  main .make_it_fly .make_1 h1 {
+    width: 100%;
+    font-size: 6rem;
+    text-align: center;
+  }
+  main .make_it_fly .make_2 {
+    justify-content: start;
+  }
+  main .make_it_fly .make_2 p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 576px) {
+  main .make_it_fly {
+    gap: 0px;
+    height: 240px;
+  }
+  main .make_it_fly .make_1 {
+    justify-content: start;
+  }
+  main .make_it_fly .make_1 h1 {
+    justify-content: start;
+    width: 100%;
+    font-size: 5rem;
+    text-align: center;
+  }
+  main .make_it_fly .make_2 p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 470px) {
+  main .make_it_fly {
+    height: 220px;
+  }
+  main .make_it_fly .make_1 h1 {
+    font-size: 4.2rem;
+  }
+  main .make_it_fly .make_2 p {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=satyle.css.map */

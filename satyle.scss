@@ -1,0 +1,558 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500;600;700&family=IBM+Plex+Sans:wght@300;400;500&family=Manrope:wght@200&family=Play&family=Rubik:wght@300&family=Smooch+Sans:wght@100&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    .head {
+        width: 90%;
+        height: 140%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+            width: auto;
+            height: 50%;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+
+            .logo_text {
+                h1 {
+                    font-size: 44px;
+                    font-weight: 800;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    color: red;
+                }
+            }
+        }
+
+        .head_element {
+            display: flex;
+            align-items: center;
+            gap: 85px;
+
+            a {
+                text-decoration: none;
+                color: black;
+                font-family: 'IBM Plex Sans';
+                font-size: 23px;
+                font-weight: 500;
+            }
+        }
+
+        .concat_us {
+            display: flex;
+            align-items: center;
+
+            .caoncat_btn {
+                width: 165px;
+                height: 50px;
+                background-color: #FF0000;
+                color: #fff;
+                border: none;
+                border-radius: 50px;
+                font-size: 19px;
+                font-family: 'IBM Plex Sans';
+                cursor: pointer;
+            }
+        }
+
+        .menu_side_bar {
+            display: none;
+        }
+    }
+}
+
+main {
+    margin-top: 150px;
+    width: 100%;
+    height: auto;
+
+    .make_it_fly {
+        margin: auto;
+        width: 90%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        gap: 90px;
+
+        .make_1 {
+            width: 55%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+
+            h1 {
+                font-weight: 500;
+                font-size: 10rem;
+                font-family: 'IBM Plex Sans';
+                color: #21272A;
+                transition: 0.3s ease;
+            }
+        }
+
+        .make_2 {
+            width: 45%;
+            height: 90%;
+            border-bottom: 1px solid black;
+            display: flex;
+            align-items: center;
+
+            p {
+                font-size: 29px;
+                transition: 0.3s ease;
+                line-height: 2;
+            }
+        }
+    }
+
+    .plane_img{
+        margin-top: 100px;
+        width: 100%;
+        height: 700px;
+        rotate: 180deg;
+        object-fit: cover;
+        background-position: center;
+        background-size: cover;
+        z-index: 1 !important;
+        background-image: url(https://media.cntraveller.com/photos/62da82bf0b87e86bd3c3bc24/16:9/w_1920,c_limit/airport-GettyImages-1333152471.jpeg);
+        img{
+
+            width: 100%;
+            height: 100%;
+            rotate: 180deg;
+            object-fit: cover;
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
+    .What_we_do{
+        position: relative;
+        .i{
+            z-index: 2111 !important;
+            margin-top: -100px;
+            width: 100%;
+            height: 700px;
+            background-color: #FF3333;
+            border-radius: 100px 100px 0 0;
+        }
+    }
+}
+
+@media(max-width: 1800px) {
+    main {
+        margin-top: 140px;
+
+        .make_it_fly {
+            .make_1 {
+                h1 {
+                    font-size: 9.5rem;
+                }
+            }
+
+            .make_2 {
+                width: 42%;
+
+                p {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 1650px) {
+    main {
+        margin-top: 130px;
+
+        .make_it_fly {
+            .make_1 {
+                h1 {
+                    font-size: 8.5rem;
+                }
+            }
+
+            .make_2 {
+                gap: 15px;
+                width: 43%;
+
+                p {
+                    font-size: 23px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 1500px) {
+    header {
+        .head {
+            .logo {
+                .logo_text {
+                    h1 {
+                        font-size: 40px;
+                        font-weight: 800;
+                    }
+                }
+            }
+
+            .head_element {
+                gap: 60px;
+
+                a {
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+            }
+
+            .concat_us {
+                .caoncat_btn {
+                    width: 165px;
+                    height: 50px;
+                    font-size: 19px;
+                }
+            }
+        }
+    }
+
+    main {
+        margin-top: 120px;
+
+        .make_it_fly {
+            .make_1 {
+                h1 {
+                    font-size: 7.5rem;
+                }
+            }
+
+            .make_2 {
+                width: 45%;
+
+                p {
+                    font-size: 21px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 1400px) {
+    header {
+        .head {
+            .logo {
+                gap: 10px;
+
+                .logo_img {
+                    img {
+                        width: 65px;
+                        height: 65px;
+                    }
+                }
+
+                .logo_text {
+                    h1 {
+                        font-size: 30px;
+                        font-weight: 800;
+                    }
+                }
+            }
+
+            .head_element {
+                gap: 50px;
+
+                a {
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+            }
+
+            .concat_us {
+                .caoncat_btn {
+                    width: 150px;
+                    height: 50px;
+                    font-size: 19px;
+                }
+            }
+        }
+    }
+
+    main {
+        margin-top: 100px;
+
+        .make_it_fly {
+            .make_1 {
+                width: 45%;
+                h1 {
+                    text-align: center;
+                    font-size: 6.5rem;
+                }
+            }
+
+            .make_2 {
+                width: 55%;
+
+                p {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 1200px) {
+    header {
+        .head {
+            .logo {
+                gap: 10px;
+
+                .logo_img {
+                    img {
+                        width: 55px;
+                        height: 55px;
+                    }
+                }
+
+                .logo_text {
+                    h1 {
+                        font-size: 25px;
+                        font-weight: 800;
+                    }
+                }
+            }
+
+            .head_element {
+                gap: 38px;
+
+                a {
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+            }
+
+            .concat_us {
+                .caoncat_btn {
+                    width: 125px;
+                    height: 50px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    main {
+        margin-top: 90px;
+
+        .make_it_fly {
+            .make_1 {
+                width: 40%;
+
+                h1 {
+                    font-size: 6rem;
+                    text-align: center;
+                }
+            }
+
+            .make_2 {
+                width: 60%;
+
+                p {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 992px) {
+    header {
+        .head {
+            .logo {
+                gap: 5px;
+
+                .logo_img {
+                    img {
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+
+                .logo_text {
+                    h1 {
+                        font-size: 18px;
+                        font-weight: 800;
+                    }
+                }
+            }
+
+            .head_element {
+                gap: 25px;
+
+                a {
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+            }
+
+            .concat_us {
+                .caoncat_btn {
+                    width: 90px;
+                    height: 40px;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+
+    main {
+        margin-top: 80px;
+
+        .make_it_fly {
+            flex-direction: column;
+            height: 280px;
+            gap: 20px;
+
+            .make_1 {
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+
+                h1 {
+                    font-size: 7rem;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+
+            .make_2 {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+
+                p {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 776px) {
+    header {
+        .head {
+            .logo {
+                gap: 5px;
+
+                .logo_img {
+                    img {
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+
+                .logo_text {
+                    h1 {
+                        font-size: 30px;
+                        font-weight: 800;
+                    }
+                }
+            }
+
+            .head_element {
+                display: none;
+            }
+
+            .concat_us {
+                display: none;
+            }
+
+            .menu_side_bar {
+                display: flex;
+
+                img {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    main {
+        margin-top: 90px;
+
+        .make_it_fly {
+            .make_1 {
+
+                h1 {
+                    width: 100%;
+                    font-size: 6rem;
+                    text-align: center;
+                }
+            }
+
+            .make_2 {
+                justify-content: start;
+
+                p {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 576px) {
+    main {
+        .make_it_fly {
+            gap: 0px;
+            height: 240px;
+
+            .make_1 {
+                justify-content: start;
+
+                h1 {
+                    justify-content: start;
+                    width: 100%;
+                    font-size: 5rem;
+                    text-align: center;
+                }
+            }
+
+            .make_2 {
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 470px) {
+    main {
+        .make_it_fly {
+            height: 220px;
+
+            .make_1 {
+                h1 {
+                    font-size: 4.2rem;
+                }
+            }
+
+            .make_2 {
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
