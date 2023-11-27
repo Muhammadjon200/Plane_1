@@ -197,6 +197,25 @@ main {
                 width: 100%;
                 height: 50%;
                 border: 1px solid black;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+                .id_plane_first{
+                    width: 20%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    gap: 20px;
+                    .id_plane{
+                        width: 100%;
+                        border-bottom: 1px solid white;
+                    }
+                    .con_plane_text{
+                        width: 90%;
+                    }
+                }
             }
         }
     }
