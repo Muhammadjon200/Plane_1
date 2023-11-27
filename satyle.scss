@@ -130,12 +130,11 @@ main {
         background-image: url(https://media.cntraveller.com/photos/62da82bf0b87e86bd3c3bc24/16:9/w_1920,c_limit/airport-GettyImages-1333152471.jpeg);
     }
 
-    .What_we_do {
+    .What_we_do {   
         position: relative;
-        z-index: 2111 !important;
-        margin-top: -90px;
+        margin-top: -120px;
         width: 100%;
-        height: 700px;
+        height: 800px;
         background-color: #FF3333;
         border-radius: 100px 100px 0 0;
         display: flex;
@@ -151,7 +150,7 @@ main {
 
             .we_do_first {
                 width: 100%;
-                height: 50%;
+                height: 40%;
                 display: flex;
 
                 .enter_btn {
@@ -196,17 +195,18 @@ main {
             .we_do_second {
                 width: 100%;
                 height: 50%;
-                border: 1px solid black;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                flex-wrap: wrap;
+                flex-wrap: wrap ;
+
                 .id_plane_first{
                     width: 20%;
                     height: 100%;
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
+                    flex-wrap: wrap;
                     gap: 20px;
                     .id_plane{
                         width: 100%;
@@ -216,6 +216,97 @@ main {
                         width: 90%;
                     }
                 }
+            }
+        }
+    }
+
+    .swiss{
+        position: relative;
+        margin-top: -100px;
+        width: 100%;
+        height: 700px;
+        border-radius: 100px 100px 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #394854;
+        .swiss_conatiner{
+            width: 90%;
+            height: 90%;
+            display: flex;
+            .swiss_right{
+                width: 60%;
+                height: 90%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .swiss_right_text_con{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    button{
+                        width: 70%;
+                        height: 50px;
+                        background: none;
+                        border: 1px solid white;
+                        font-size: 18px;
+                        color: white;
+                        border-radius: 10px;
+                        cursor: pointer;
+                    }
+                    h1{
+                        color: white;
+                        font-size: 50px;
+                        font-family:'IBM Plex Sans';
+                        font-weight: 400;
+                        line-height: 40px;
+                    }
+                }
+                img{
+                    width: 521px;
+                    height: 442px;
+
+                }
+            }
+            .swiss_left{
+                width: 40%;
+                height: 90%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .swiss_slider {
+                    width: 90%;
+                    height: 90%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    overflow-x: auto;
+                    .slide {
+                        width: 100%;
+                        height: 70%;
+                        flex-shrink: 0;
+                        display: flex;
+                        flex-direction: column;
+                        border-bottom: 1px solid white;
+                        color: white;
+                        font-family: 'IBM Plex Sans';
+                        gap: 20px;
+                        h1{
+                            font-weight: 400;
+                        }
+                        .bx{
+                            font-size: 50px;
+                             color: red;
+                        }
+                        img{
+                            width: 50px;
+                            height: 50px;
+                            color: white;
+                        }
+                      }
+                  }
             }
         }
     }
@@ -606,8 +697,68 @@ main {
                     }
 
                 }
+                .we_do_second {
+                    width: 100%;
+                    height: 50%;
+    
+                    .id_plane_first{
+                        width: 40%;
+                        height: 40%;
+                        gap: 20px;
+                        .id_plane{
+                            width: 100%;
+                        }
+                        .con_plane_text{
+                            width: 90%;
+                        }
+                    }
+                }
             }
         }
+
+        .swiss{
+            height: 1000px;
+            .swiss_conatiner{
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 90%;
+                height: 80%;
+                .swiss_right{
+                    width: 100%;
+                    height: 50%;
+                    .swiss_right_text_con{
+                        width: 100%;
+                        height: auto;
+                        align-items: center;
+                        gap: 20px;
+                    }
+                    img{
+                        display: none;
+    
+                    }
+                }
+                .swiss_left{
+                    width: 90%;
+                    height: 80%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .swiss_slider {
+                        width: 100%;
+                        height: 80%;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+                        overflow-x: auto;
+                        .slide{
+                            height: 50%;
+                        }
+                      }
+                }
+            }
+        }
+
     }
 }
 
@@ -693,6 +844,21 @@ main {
                 }
             }
         }
+
+        .swiss{
+            .swiss_conatiner{
+                .swiss_left{
+                    .swiss_slider {
+                        .slide{
+                            height: 60%;
+                            h1{
+                                font-size: 20px;
+                            }
+                        }
+                      }
+                }
+            }
+        }
     }
 }
 
@@ -721,7 +887,7 @@ main {
         }
 
         .What_we_do {
-            height: 800px;
+            height: 1000px;
             .cunbe_we_do {
                 .we_do_first {
                     .enter_btn {
@@ -738,6 +904,23 @@ main {
 
                     .about_we_do {
                         height: 55%;
+                    }
+                }
+                .we_do_second {
+                    width: 100%;
+                    height: 50%;
+                    flex-wrap: wrap;
+                    justify-content: center;
+    
+                    .id_plane_first{
+                        width: 100%;
+                        height: 27%;
+                        .id_plane{
+                            width: 100%;
+                        }
+                        .con_plane_text{
+                            width: 90%;
+                        }
                     }
                 }
             }
@@ -784,6 +967,37 @@ main {
                             font-size: 15px;
                         }
                     }
+                }
+            }
+        }
+
+        .swiss{
+            .swiss_conatiner{
+                .swiss_right{
+                    .swiss_right_text_con{
+                        .h{
+                            font-size: 30px;
+                        }
+                    }
+
+                }
+                .swiss_left{
+                    width: 90%;
+                    height: 80%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .swiss_slider {
+                        width: 100%;
+                        height: 80%;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+                        overflow-x: auto;
+                        .slide{
+                            height: 70%;
+                        }
+                      }
                 }
             }
         }

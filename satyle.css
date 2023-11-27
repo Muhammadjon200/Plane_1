@@ -116,10 +116,9 @@ main .plane_img {
 }
 main .What_we_do {
   position: relative;
-  z-index: 2111 !important;
-  margin-top: -90px;
+  margin-top: -120px;
   width: 100%;
-  height: 700px;
+  height: 800px;
   background-color: #FF3333;
   border-radius: 100px 100px 0 0;
   display: flex;
@@ -135,7 +134,7 @@ main .What_we_do .cunbe_we_do {
 }
 main .What_we_do .cunbe_we_do .we_do_first {
   width: 100%;
-  height: 50%;
+  height: 40%;
   display: flex;
 }
 main .What_we_do .cunbe_we_do .we_do_first .enter_btn {
@@ -173,7 +172,6 @@ main .What_we_do .cunbe_we_do .we_do_first .about_we_do p {
 main .What_we_do .cunbe_we_do .we_do_second {
   width: 100%;
   height: 50%;
-  border: 1px solid black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -185,6 +183,7 @@ main .What_we_do .cunbe_we_do .we_do_second .id_plane_first {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 20px;
 }
 main .What_we_do .cunbe_we_do .we_do_second .id_plane_first .id_plane {
@@ -193,6 +192,95 @@ main .What_we_do .cunbe_we_do .we_do_second .id_plane_first .id_plane {
 }
 main .What_we_do .cunbe_we_do .we_do_second .id_plane_first .con_plane_text {
   width: 90%;
+}
+main .swiss {
+  position: relative;
+  margin-top: -100px;
+  width: 100%;
+  height: 700px;
+  border-radius: 100px 100px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #394854;
+}
+main .swiss .swiss_conatiner {
+  width: 90%;
+  height: 90%;
+  display: flex;
+}
+main .swiss .swiss_conatiner .swiss_right {
+  width: 60%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .swiss .swiss_conatiner .swiss_right .swiss_right_text_con {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .swiss .swiss_conatiner .swiss_right .swiss_right_text_con button {
+  width: 70%;
+  height: 50px;
+  background: none;
+  border: 1px solid white;
+  font-size: 18px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+main .swiss .swiss_conatiner .swiss_right .swiss_right_text_con h1 {
+  color: white;
+  font-size: 50px;
+  font-family: "IBM Plex Sans";
+  font-weight: 400;
+  line-height: 40px;
+}
+main .swiss .swiss_conatiner .swiss_right img {
+  width: 521px;
+  height: 442px;
+}
+main .swiss .swiss_conatiner .swiss_left {
+  width: 40%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .swiss .swiss_conatiner .swiss_left .swiss_slider {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-x: auto;
+}
+main .swiss .swiss_conatiner .swiss_left .swiss_slider .slide {
+  width: 100%;
+  height: 70%;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid white;
+  color: white;
+  font-family: "IBM Plex Sans";
+  gap: 20px;
+}
+main .swiss .swiss_conatiner .swiss_left .swiss_slider .slide h1 {
+  font-weight: 400;
+}
+main .swiss .swiss_conatiner .swiss_left .swiss_slider .slide .bx {
+  font-size: 50px;
+  color: red;
+}
+main .swiss .swiss_conatiner .swiss_left .swiss_slider .slide img {
+  width: 50px;
+  height: 50px;
+  color: white;
 }
 
 @media (max-width: 1800px) {
@@ -443,6 +531,62 @@ main .What_we_do .cunbe_we_do .we_do_second .id_plane_first .con_plane_text {
     font-weight: 100;
     line-height: 30px;
   }
+  main .What_we_do .cunbe_we_do .we_do_second {
+    width: 100%;
+    height: 50%;
+  }
+  main .What_we_do .cunbe_we_do .we_do_second .id_plane_first {
+    width: 40%;
+    height: 40%;
+    gap: 20px;
+  }
+  main .What_we_do .cunbe_we_do .we_do_second .id_plane_first .id_plane {
+    width: 100%;
+  }
+  main .What_we_do .cunbe_we_do .we_do_second .id_plane_first .con_plane_text {
+    width: 90%;
+  }
+  main .swiss {
+    height: 1000px;
+  }
+  main .swiss .swiss_conatiner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 80%;
+  }
+  main .swiss .swiss_conatiner .swiss_right {
+    width: 100%;
+    height: 50%;
+  }
+  main .swiss .swiss_conatiner .swiss_right .swiss_right_text_con {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    gap: 20px;
+  }
+  main .swiss .swiss_conatiner .swiss_right img {
+    display: none;
+  }
+  main .swiss .swiss_conatiner .swiss_left {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main .swiss .swiss_conatiner .swiss_left .swiss_slider {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-x: auto;
+  }
+  main .swiss .swiss_conatiner .swiss_left .swiss_slider .slide {
+    height: 50%;
+  }
 }
 @media (max-width: 776px) {
   header .head .logo {
@@ -494,6 +638,12 @@ main .What_we_do .cunbe_we_do .we_do_second .id_plane_first .con_plane_text {
   main .What_we_do .cunbe_we_do .we_do_first .about_we_do {
     height: 55%;
   }
+  main .swiss .swiss_conatiner .swiss_left .swiss_slider .slide {
+    height: 60%;
+  }
+  main .swiss .swiss_conatiner .swiss_left .swiss_slider .slide h1 {
+    font-size: 20px;
+  }
 }
 @media (max-width: 576px) {
   main .make_it_fly {
@@ -513,7 +663,7 @@ main .What_we_do .cunbe_we_do .we_do_second .id_plane_first .con_plane_text {
     font-size: 14px;
   }
   main .What_we_do {
-    height: 800px;
+    height: 1000px;
   }
   main .What_we_do .cunbe_we_do .we_do_first .enter_btn {
     height: 40%;
@@ -526,6 +676,22 @@ main .What_we_do .cunbe_we_do .we_do_second .id_plane_first .con_plane_text {
   }
   main .What_we_do .cunbe_we_do .we_do_first .about_we_do {
     height: 55%;
+  }
+  main .What_we_do .cunbe_we_do .we_do_second {
+    width: 100%;
+    height: 50%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  main .What_we_do .cunbe_we_do .we_do_second .id_plane_first {
+    width: 100%;
+    height: 27%;
+  }
+  main .What_we_do .cunbe_we_do .we_do_second .id_plane_first .id_plane {
+    width: 100%;
+  }
+  main .What_we_do .cunbe_we_do .we_do_second .id_plane_first .con_plane_text {
+    width: 90%;
   }
 }
 @media (max-width: 470px) {
@@ -554,5 +720,26 @@ main .What_we_do .cunbe_we_do .we_do_second .id_plane_first .con_plane_text {
   main .What_we_do .cunbe_we_do .we_do_first .about_we_do p {
     line-height: 20px;
     font-size: 15px;
+  }
+  main .swiss .swiss_conatiner .swiss_right .swiss_right_text_con .h {
+    font-size: 30px;
+  }
+  main .swiss .swiss_conatiner .swiss_left {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main .swiss .swiss_conatiner .swiss_left .swiss_slider {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-x: auto;
+  }
+  main .swiss .swiss_conatiner .swiss_left .swiss_slider .slide {
+    height: 70%;
   }
 }/*# sourceMappingURL=satyle.css.map */
