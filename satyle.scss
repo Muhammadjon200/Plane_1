@@ -224,7 +224,7 @@ main {
         position: relative;
         margin-top: -100px;
         width: 100%;
-        height: 700px;
+        height: 800px;
         border-radius: 100px 100px 0 0;
         display: flex;
         justify-content: center;
@@ -308,6 +308,35 @@ main {
                       }
                   }
             }
+        }
+    }
+
+    .trusted{
+        position: relative;
+        margin-top: -100px;
+        width: 100%;
+        height: 700px;
+        border-radius: 100px 100px 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        .trusted_container{
+            width: 80%;
+            height: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .trusted_img{
+                width: 40%;
+                height: 90%;
+                border: 1px solid black;
+            }
+            .trusted_text{
+                width: 60%;
+                height: 90%;
+                border: 1px solid rgb(255, 0, 0);
+            }   
         }
     }
 }
