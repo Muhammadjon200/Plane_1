@@ -581,9 +581,10 @@ main {
 
             .levarning_container {
                 width: 100%;
-                height: 80%;
+                height: 70%;
                 display: flex;
                 align-items: center;
+                justify-content: space-between;
                 gap: 50px;
 
                 .levarning_text {
@@ -666,6 +667,62 @@ main {
                 }
             }
         }
+    }
+
+    .swiss_interacation{
+        position: relative;
+        margin-top: -100px;
+        width: 100%;
+        height: 600px;
+        border-radius: 100px 100px 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        background-color: #394854;
+        .swiss_interacation_container{
+            width: 90%;
+            height: 80%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            color: #fff;
+            h1{
+                width: 80%;
+                text-align: center;
+            }
+            p{
+                width: 75%;
+                text-align: center;
+            }
+            button{
+                background: none;
+                border: none;
+                border: 1px solid white;
+                color: white;
+                width: 200px;
+                height: 50px;
+                font-size: 18px;
+                cursor: pointer;
+            }
+            .g_c{
+                background-color: red;
+                border-radius: 50px;
+                border: none;
+            }
+        }
+    }
+
+    .opportunities{
+        position: relative;
+        margin-top: -80px;
+        width: 100%;
+        height: 700px;
+        border-radius: 100px 100px 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
     }
 }
 
@@ -844,6 +901,74 @@ main {
                 }
             }
         }
+
+        .levarning {
+            position: relative;
+            margin-top: -100px;
+            width: 100%;
+            height: 800px;
+            border-radius: 100px 100px 0 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffffff;
+    
+            .levarning_big_container {
+                width: 90%;
+                height: 90%;
+                display: flex;
+                flex-direction: column;
+    
+                .levarning_container {
+                    width: 100%;
+                    height: 60%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    gap: 50px;
+    
+                    .levarning_text {
+                        width: 40%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        gap: 20px;
+    
+                        h1 {
+                            font-size: 50px;
+                            font-weight: 300;
+                        }
+
+                        p{
+                            font-size: 15px;
+                        }
+    
+                        button {
+                            width: 250px;
+                            height: 60px;
+                            background-color: red;
+                            border: none;
+                            border-radius: 50px;
+                            cursor: pointer;
+                            font-size: 20px;
+                            color: #fff;
+                        }
+                    }
+    
+                    .levarning_img {
+                        img {
+                            object-fit: cover;
+                            background-position: center;
+                            background-size: cover;
+                            width: 400px;
+                            height: 400px;
+                        }
+                    }
+                }
+    
+            }
+        }
     }
 }
 
@@ -934,6 +1059,74 @@ main {
                     }
 
                 }
+            }
+        }
+
+        .levarning {
+            position: relative;
+            margin-top: -100px;
+            width: 100%;
+            height: 800px;
+            border-radius: 100px 100px 0 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffffff;
+    
+            .levarning_big_container {
+                width: 90%;
+                height: 90%;
+                display: flex;
+                flex-direction: column;
+    
+                .levarning_container {
+                    width: 100%;
+                    height: 60%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    gap: 50px;
+    
+                    .levarning_text {
+                        width: 40%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        gap: 20px;
+    
+                        h1 {
+                            font-size: 40px;
+                            font-weight: 300;
+                        }
+
+                        p{
+                            font-size: 13px;
+                        }
+    
+                        button {
+                            width: 230px;
+                            height: 60px;
+                            background-color: red;
+                            border: none;
+                            border-radius: 50px;
+                            cursor: pointer;
+                            font-size:18px;
+                            color: #fff;
+                        }
+                    }
+    
+                    .levarning_img {
+                        img {
+                            object-fit: cover;
+                            background-position: center;
+                            background-size: cover;
+                            width: 400px;
+                            height: 400px;
+                        }
+                    }
+                }
+    
             }
         }
     }
@@ -1247,7 +1440,7 @@ main {
 
                 .partners_text {
                     width: 100%;
-                    height: 40%;
+                    height: 30%;
 
                     button {
                         width: 270px;
@@ -1277,6 +1470,65 @@ main {
                         font-family: 'IBM Plex Sans';
                     }
                 }
+            }
+        }
+
+        .levarning {
+            height: 1000px;
+    
+            .levarning_big_container {
+                width: 90%;
+                height: 90%;
+                display: flex;
+                flex-direction: column;
+    
+                .levarning_container {
+                    width: 100%;
+                    height: 80%;
+                    flex-direction: column;
+    
+                    .levarning_text {
+                        width: 100%;
+                        height: 50%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        gap: 20px;
+    
+                        h1 {
+                            font-size: 40px;
+                            font-weight: 300;
+                        }
+
+                        p{
+                            font-size: 13px;
+                        }
+    
+                        button {
+                            width: 230px;
+                            height: 60px;
+                            background-color: red;
+                            border: none;
+                            border-radius: 50px;
+                            cursor: pointer;
+                            font-size:18px;
+                            color: #fff;
+                        }
+                    }
+    
+                    .levarning_img {
+                        width: 100%;
+                        height: 50%;
+                        img {
+                            object-fit: cover;
+                            background-position: center;
+                            background-size: cover;
+                            width: 400px;
+                            height: 400px;
+                        }
+                    }
+                }
+    
             }
         }
 
@@ -1390,6 +1642,52 @@ main {
                         margin-top: 0px;
                     }
                 }
+            }
+        }
+
+        .levarning {
+            height: 1000px;
+    
+            .levarning_big_container {
+                width: 90%;
+                height: 90%;
+    
+                .levarning_container {
+                    width: 100%;
+                    height: 80%;
+    
+                    .levarning_text {
+                        width: 100%;
+                        height: 50%;
+                        gap: 15px;
+    
+                        h1 {
+                            font-size: 35px;
+                            font-weight: 300;
+                        }
+
+                        p{
+                            font-size: 13px;
+                        }
+    
+                        button {
+                            width: 200px;
+                            height: 40px;
+                            font-size:18px;
+                        }
+                    }
+    
+                    .levarning_img {
+                        img {
+                            object-fit: cover;
+                            background-position: center;
+                            background-size: cover;
+                            width: 500px;
+                            height: 400px;
+                        }
+                    }
+                }
+    
             }
         }
     }
@@ -1517,6 +1815,56 @@ main {
                         border-radius: 20px;
                         cursor: pointer;
                     }
+                }
+            }
+        }
+
+        .levarning {
+            .levarning_big_container {
+                .levarning_container {
+                    .levarning_text {
+                        gap: 15px;
+                        h1 {
+                            font-size: 30px;
+                            font-weight: 300;
+                        }
+
+                        p{
+                            font-size: 13px;
+                        }
+    
+                        button {
+                            width: 200px;
+                            height: 40px;
+                            font-size:18px;
+                        }
+                    }
+    
+                    .levarning_img {
+                        img {
+                            object-fit: cover;
+                            background-position: center;
+                            background-size: cover;
+                            width: 400px;
+                            height: 400px;
+                        }
+                    }
+                }
+    
+            }
+        }
+
+        .swiss_interacation{
+            .swiss_interacation_container{
+                h1{
+                    font-size: 26px;
+                    width: 95%;
+                    text-align: center;
+                }
+                p{
+                    font-size: 13px;
+                    width: 90%;
+                    text-align: center;
                 }
             }
         }
@@ -1694,6 +2042,41 @@ main {
                         }
                     }
                 }
+            }
+        }
+
+        .levarning {
+            .levarning_big_container {
+                .levarning_container {
+                    .levarning_text {
+                        gap: 15px;
+                        h1 {
+                            font-size: 30px;
+                            font-weight: 300;
+                        }
+
+                        p{
+                            font-size: 13px;
+                        }
+    
+                        button {
+                            width: 200px;
+                            height: 40px;
+                            font-size:18px;
+                        }
+                    }
+    
+                    .levarning_img {
+                        img {
+                            object-fit: cover;
+                            background-position: center;
+                            background-size: cover;
+                            width: 300px;
+                            height: 300px;
+                        }
+                    }
+                }
+    
             }
         }
     }
