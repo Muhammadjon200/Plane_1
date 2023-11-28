@@ -238,7 +238,7 @@ main .swiss .swiss_conatiner .swiss_right .swiss_right_text_con h1 {
   font-size: 50px;
   font-family: "IBM Plex Sans";
   font-weight: 400;
-  line-height: 40px;
+  line-height: 45px;
 }
 main .swiss .swiss_conatiner .swiss_right img {
   width: 521px;
@@ -257,10 +257,10 @@ main .swiss .swiss_conatiner .swiss_left .swiss_slider {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  overflow-x: auto;
+  overflow: auto;
 }
 main .swiss .swiss_conatiner .swiss_left .swiss_slider .slide {
-  width: 100%;
+  width: 95%;
   height: 70%;
   flex-shrink: 0;
   display: flex;
@@ -282,6 +282,17 @@ main .swiss .swiss_conatiner .swiss_left .swiss_slider .slide img {
   height: 50px;
   color: white;
 }
+main .swiss .swiss_conatiner .swiss_left .swiss_slider::-webkit-scrollbar {
+  width: 10px;
+  height: 100%;
+  background-color: #394854;
+  color: white;
+}
+main .swiss .swiss_conatiner .swiss_left .swiss_slider::-webkit-scrollbar-thumb {
+  width: 5px;
+  border-radius: 5px;
+  background-color: rgb(174, 174, 174);
+}
 main .trusted {
   position: relative;
   margin-top: -100px;
@@ -294,21 +305,136 @@ main .trusted {
   background-color: white;
 }
 main .trusted .trusted_container {
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 90%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 main .trusted .trusted_container .trusted_img {
-  width: 40%;
+  width: 50%;
   height: 90%;
-  border: 1px solid black;
+}
+main .trusted .trusted_container .trusted_img img {
+  width: 90%;
+  height: 75%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  background-size: cover;
 }
 main .trusted .trusted_container .trusted_text {
-  width: 60%;
+  width: 50%;
   height: 90%;
-  border: 1px solid rgb(255, 0, 0);
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+main .trusted .trusted_container .trusted_text h1 {
+  font-family: "IBM Plex Sans";
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 450;
+}
+main .trusted .trusted_container .trusted_text p {
+  font-size: 18px;
+  font-family: "IBM Plex Sans";
+}
+main .trusted .trusted_container .trusted_text button {
+  width: 200px;
+  height: 50px;
+  border: none;
+  background-color: red;
+  color: white;
+  font-family: "IBM Plex Sans";
+  border-radius: 20px;
+  cursor: pointer;
+}
+main .pession {
+  position: relative;
+  margin-top: -80px;
+  width: 100%;
+  height: 800px;
+  border-radius: 100px 100px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #394854;
+}
+main .pession .pession_container {
+  width: 95%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+main .pession .pession_container .head_pession {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .pession .pession_container .head_pession button {
+  width: 180px;
+  height: 50px;
+  background: none;
+  border: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  font-size: "IBM Plex Sans";
+  cursor: pointer;
+}
+main .pession .pession_container .head_pession h1 {
+  font-size: "IBM Plex Sans";
+  color: white;
+  font-size: 50px;
+}
+main .pession .pession_container .card_pession {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+main .pession .pession_container .card_pession .card_passion_1 {
+  width: 295px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  border: 1px solid white;
+  color: #fff;
+}
+main .pession .pession_container .card_pession .card_passion_1 img {
+  width: 50px;
+  height: 50px;
+}
+main .pession .pession_container .card_pession .card_passion_1 h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  margin-left: 20px;
+}
+main .pession .pession_container .card_pession .card_passion_1 p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 200;
+  margin-left: 20px;
+}
+main .our_partners {
+  position: relative;
+  margin-top: -95px;
+  width: 100%;
+  height: 500px;
+  border-radius: 100px 100px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF3333;
 }
 
 @media (max-width: 1800px) {
@@ -614,6 +740,98 @@ main .trusted .trusted_container .trusted_text {
   }
   main .swiss .swiss_conatiner .swiss_left .swiss_slider .slide {
     height: 50%;
+    width: 95%;
+  }
+  main .trusted {
+    width: 100%;
+    height: 900px;
+  }
+  main .trusted .trusted_container {
+    width: 90%;
+    height: 90%;
+    flex-direction: column;
+  }
+  main .trusted .trusted_container .trusted_img {
+    width: 90%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .trusted .trusted_container .trusted_img img {
+    width: 80%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-position: center;
+    background-size: cover;
+  }
+  main .trusted .trusted_container .trusted_text {
+    width: 90%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  main .trusted .trusted_container .trusted_text h1 {
+    margin-top: 25px;
+    font-family: "IBM Plex Sans";
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 450;
+  }
+  main .trusted .trusted_container .trusted_text p {
+    font-size: 18px;
+    font-family: "IBM Plex Sans";
+  }
+  main .trusted .trusted_container .trusted_text button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-family: "IBM Plex Sans";
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  main .pession {
+    height: 1700px;
+  }
+  main .pession .pession_container .head_pession {
+    gap: 25px;
+  }
+  main .pession .pession_container .card_pession {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  main .pession .pession_container .card_pession .card_passion_1 {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    border: 1px solid white;
+    color: #fff;
+  }
+  main .pession .pession_container .card_pession .card_passion_1 img {
+    width: 50px;
+    height: 50px;
+  }
+  main .pession .pession_container .card_pession .card_passion_1 h1 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    margin-left: 20px;
+  }
+  main .pession .pession_container .card_pession .card_passion_1 p {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: 200;
+    margin-left: 20px;
   }
 }
 @media (max-width: 776px) {
@@ -667,10 +885,14 @@ main .trusted .trusted_container .trusted_text {
     height: 55%;
   }
   main .swiss .swiss_conatiner .swiss_left .swiss_slider .slide {
+    width: 95%;
     height: 60%;
   }
   main .swiss .swiss_conatiner .swiss_left .swiss_slider .slide h1 {
     font-size: 20px;
+  }
+  main .trusted .trusted_container .trusted_text h1 {
+    margin-top: 0px;
   }
 }
 @media (max-width: 576px) {
@@ -769,5 +991,85 @@ main .trusted .trusted_container .trusted_text {
   }
   main .swiss .swiss_conatiner .swiss_left .swiss_slider .slide {
     height: 70%;
+  }
+  main .trusted {
+    width: 100%;
+    height: 800px;
+  }
+  main .trusted .trusted_container {
+    width: 90%;
+    height: 90%;
+    flex-direction: column;
+  }
+  main .trusted .trusted_container .trusted_img {
+    width: 90%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .trusted .trusted_container .trusted_img img {
+    width: 80%;
+    height: 80%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-position: center;
+    background-size: cover;
+  }
+  main .trusted .trusted_container .trusted_text {
+    width: 90%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  main .trusted .trusted_container .trusted_text h1 {
+    font-family: "IBM Plex Sans";
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 450;
+  }
+  main .trusted .trusted_container .trusted_text p {
+    font-size: 13px;
+    font-family: "IBM Plex Sans";
+  }
+  main .pession {
+    height: 1700px;
+  }
+  main .pession .pession_container .head_pession {
+    height: 20%;
+  }
+  main .pession .pession_container .card_pession {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  main .pession .pession_container .card_pession .card_passion_1 {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    border: 1px solid white;
+    color: #fff;
+  }
+  main .pession .pession_container .card_pession .card_passion_1 img {
+    width: 50px;
+    height: 50px;
+  }
+  main .pession .pession_container .card_pession .card_passion_1 h1 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    margin-left: 20px;
+  }
+  main .pession .pession_container .card_pession .card_passion_1 p {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: 200;
+    margin-left: 20px;
   }
 }/*# sourceMappingURL=satyle.css.map */
