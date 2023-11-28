@@ -1123,6 +1123,42 @@ main {
             }
         }
 
+        .our_partners {
+            height: 800px;
+            .partners_container{
+                flex-direction: column;
+                justify-content: start;
+                gap: 25px;
+                .partners_text{
+                    width: 100%;
+                    height: 40%;
+                    button{
+                        width: 270px;
+                        p{
+                            font-size: 18px;
+                        }
+                    }
+                    h1{
+                        font-size: 40px;
+                    }
+                }
+                .sponsor{
+                    width: 100%;
+                    height: 40%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    gap: 25px;
+                    p{
+                        font-size: 20px;
+                        color: white;
+                        font-weight: 300;
+                        font-family: 'IBM Plex Sans';
+                    }
+                }
+            }
+        }
+
     }
 }
 

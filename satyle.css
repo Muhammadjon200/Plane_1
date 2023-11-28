@@ -893,6 +893,41 @@ main .our_partners .partners_container .sponsor .all_img_partners {
     font-weight: 200;
     margin-left: 20px;
   }
+  main .our_partners {
+    height: 800px;
+  }
+  main .our_partners .partners_container {
+    flex-direction: column;
+    justify-content: start;
+    gap: 25px;
+  }
+  main .our_partners .partners_container .partners_text {
+    width: 100%;
+    height: 40%;
+  }
+  main .our_partners .partners_container .partners_text button {
+    width: 270px;
+  }
+  main .our_partners .partners_container .partners_text button p {
+    font-size: 18px;
+  }
+  main .our_partners .partners_container .partners_text h1 {
+    font-size: 40px;
+  }
+  main .our_partners .partners_container .sponsor {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+  }
+  main .our_partners .partners_container .sponsor p {
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+    font-family: "IBM Plex Sans";
+  }
 }
 @media (max-width: 776px) {
   header .head .logo {
