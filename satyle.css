@@ -630,15 +630,92 @@ main .swiss_interacation .swiss_interacation_container .g_c {
   border: none;
 }
 main .opportunities {
+  border: 1px solid black;
   position: relative;
-  margin-top: -80px;
+  margin-top: -100px;
   width: 100%;
-  height: 700px;
+  height: 1000px;
   border-radius: 100px 100px 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: white;
+}
+main .opportunities .opportunities_ib_container {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+}
+main .opportunities .opportunities_ib_container .opportunities_head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .opportunities .opportunities_ib_container .opportunities_head button {
+  width: 350px;
+  height: 50px;
+  background: none;
+  border: none;
+  border: 1px solid black;
+  font-size: 20px;
+  cursor: pointer;
+}
+main .opportunities .opportunities_ib_container .opportunities_head h1 {
+  font-size: 55px;
+  font-weight: 300;
+  line-height: 100px;
+}
+main .opportunities .opportunities_ib_container .opportunities_main {
+  width: 70%;
+  height: auto;
+}
+main .opportunities .opportunities_ib_container .opportunities_main .card_head {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .opportunities .opportunities_ib_container .opportunities_main .card_head .card_head_right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+main .opportunities .opportunities_ib_container .opportunities_main .card_head .card_head_right .bx {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: red;
+  font-size: 30px;
+  color: white;
+}
+main .opportunities .opportunities_ib_container .opportunities_main .card_main {
+  width: 100%;
+  margin-top: 50px;
+}
+main .opportunities .opportunities_ib_container .opportunities_main .card_main .i {
+  display: flex;
+}
+main .opportunities .opportunities_ib_container .opportunities_main .card_main .bx {
+  cursor: pointer;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+main .opportunities .opportunities_ib_container .qonday {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+main .opportunities .opportunities_ib_container .qonday .chiziq {
+  width: 100%;
+  border-bottom: dotted red;
 }
 
 @media (max-width: 1800px) {
@@ -1243,6 +1320,69 @@ main .opportunities {
     background-size: cover;
     width: 400px;
     height: 400px;
+  }
+  main .opportunities .opportunities_ib_container .opportunities_card:nth-child(2) {
+    display: none;
+  }
+  main .opportunities .opportunities_ib_container .opportunities_head button {
+    width: 300px;
+    height: 45px;
+    background: none;
+    border: none;
+    border: 1px solid black;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  main .opportunities .opportunities_ib_container .opportunities_head h1 {
+    font-size: 40px;
+  }
+  main .opportunities .opportunities_ib_container .opportunities_main {
+    width: 100%;
+    height: auto;
+  }
+  main .opportunities .opportunities_ib_container .opportunities_main .card_head {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .opportunities .opportunities_ib_container .opportunities_main .card_head .card_head_right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  main .opportunities .opportunities_ib_container .opportunities_main .card_head .card_head_right .bx {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: red;
+    font-size: 30px;
+    color: white;
+  }
+  main .opportunities .opportunities_ib_container .opportunities_main .card_main {
+    width: 100%;
+    margin-top: 50px;
+  }
+  main .opportunities .opportunities_ib_container .opportunities_main .card_main .i {
+    display: flex;
+  }
+  main .opportunities .opportunities_ib_container .opportunities_main .card_main .bx {
+    cursor: pointer;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+  }
+  main .opportunities .opportunities_ib_container .qonday {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+  main .opportunities .opportunities_ib_container .qonday .chiziq {
+    width: 100%;
+    border-bottom: dotted red;
   }
 }
 @media (max-width: 776px) {

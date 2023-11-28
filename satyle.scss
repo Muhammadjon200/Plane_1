@@ -669,7 +669,7 @@ main {
         }
     }
 
-    .swiss_interacation{
+    .swiss_interacation {
         position: relative;
         margin-top: -100px;
         width: 100%;
@@ -679,7 +679,8 @@ main {
         justify-content: center;
         align-items: start;
         background-color: #394854;
-        .swiss_interacation_container{
+
+        .swiss_interacation_container {
             width: 90%;
             height: 80%;
             display: flex;
@@ -687,15 +688,18 @@ main {
             align-items: center;
             flex-direction: column;
             color: #fff;
-            h1{
+
+            h1 {
                 width: 80%;
                 text-align: center;
             }
-            p{
+
+            p {
                 width: 75%;
                 text-align: center;
             }
-            button{
+
+            button {
                 background: none;
                 border: none;
                 border: 1px solid white;
@@ -705,7 +709,8 @@ main {
                 font-size: 18px;
                 cursor: pointer;
             }
-            .g_c{
+
+            .g_c {
                 background-color: red;
                 border-radius: 50px;
                 border: none;
@@ -713,16 +718,106 @@ main {
         }
     }
 
-    .opportunities{
+    .opportunities {
+        border: 1px solid black;
         position: relative;
-        margin-top: -80px;
+        margin-top: -100px;
         width: 100%;
-        height: 700px;
+        height: 1000px;
         border-radius: 100px 100px 0 0;
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: white;
+
+        .opportunities_ib_container {
+            width: 90%;
+            height: 80%;
+            display: flex;
+            justify-content: start;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid black;
+
+            .opportunities_head {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                button {
+                    width: 350px;
+                    height: 50px;
+                    background: none;
+                    border: none;
+                    border: 1px solid black;
+                    font-size: 20px;
+                    cursor: pointer;
+                }
+
+                h1 {
+                    font-size: 55px;
+                    font-weight: 300;
+                    line-height: 100px;
+                }
+            }
+
+            .opportunities_main {
+                width: 70%;
+                height: auto;
+
+                .card_head {
+                    width: 100%;
+                    height: 50px;
+                    border-bottom: 1px solid black;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .card_head_right {
+                        display: flex;
+                        align-items: center;
+                        gap: 25px;
+
+                        .bx {
+                            width: 30px;
+                            height: 30px;
+                            border-radius: 50%;
+                            cursor: pointer;
+                            background-color: red;
+                            font-size: 30px;
+                            color: white;
+                        }
+                    }
+                }
+
+                .card_main {
+                    width: 100%;
+                    margin-top: 50px;
+
+                    .i {
+                        display: flex;
+                    }
+
+                    .bx {
+                        cursor: pointer;
+                        font-size: 30px;
+                        color: rgb(0, 0, 0);
+                    }
+                }
+            }
+
+            .qonday {
+                width: 100%;
+                height: 100px;
+                display: flex;
+                align-items: center;
+                .chiziq{
+                    width: 100%;
+                    border-bottom: dotted red;
+                }
+            }
+
+        }
     }
 }
 
@@ -912,13 +1007,13 @@ main {
             justify-content: center;
             align-items: center;
             background-color: #ffffff;
-    
+
             .levarning_big_container {
                 width: 90%;
                 height: 90%;
                 display: flex;
                 flex-direction: column;
-    
+
                 .levarning_container {
                     width: 100%;
                     height: 60%;
@@ -926,7 +1021,7 @@ main {
                     align-items: center;
                     justify-content: space-between;
                     gap: 50px;
-    
+
                     .levarning_text {
                         width: 40%;
                         height: 100%;
@@ -934,16 +1029,16 @@ main {
                         flex-direction: column;
                         justify-content: center;
                         gap: 20px;
-    
+
                         h1 {
                             font-size: 50px;
                             font-weight: 300;
                         }
 
-                        p{
+                        p {
                             font-size: 15px;
                         }
-    
+
                         button {
                             width: 250px;
                             height: 60px;
@@ -955,7 +1050,7 @@ main {
                             color: #fff;
                         }
                     }
-    
+
                     .levarning_img {
                         img {
                             object-fit: cover;
@@ -966,7 +1061,7 @@ main {
                         }
                     }
                 }
-    
+
             }
         }
     }
@@ -1072,13 +1167,13 @@ main {
             justify-content: center;
             align-items: center;
             background-color: #ffffff;
-    
+
             .levarning_big_container {
                 width: 90%;
                 height: 90%;
                 display: flex;
                 flex-direction: column;
-    
+
                 .levarning_container {
                     width: 100%;
                     height: 60%;
@@ -1086,7 +1181,7 @@ main {
                     align-items: center;
                     justify-content: space-between;
                     gap: 50px;
-    
+
                     .levarning_text {
                         width: 40%;
                         height: 100%;
@@ -1094,16 +1189,16 @@ main {
                         flex-direction: column;
                         justify-content: center;
                         gap: 20px;
-    
+
                         h1 {
                             font-size: 40px;
                             font-weight: 300;
                         }
 
-                        p{
+                        p {
                             font-size: 13px;
                         }
-    
+
                         button {
                             width: 230px;
                             height: 60px;
@@ -1111,11 +1206,11 @@ main {
                             border: none;
                             border-radius: 50px;
                             cursor: pointer;
-                            font-size:18px;
+                            font-size: 18px;
                             color: #fff;
                         }
                     }
-    
+
                     .levarning_img {
                         img {
                             object-fit: cover;
@@ -1126,7 +1221,7 @@ main {
                         }
                     }
                 }
-    
+
             }
         }
     }
@@ -1475,18 +1570,18 @@ main {
 
         .levarning {
             height: 1000px;
-    
+
             .levarning_big_container {
                 width: 90%;
                 height: 90%;
                 display: flex;
                 flex-direction: column;
-    
+
                 .levarning_container {
                     width: 100%;
                     height: 80%;
                     flex-direction: column;
-    
+
                     .levarning_text {
                         width: 100%;
                         height: 50%;
@@ -1494,16 +1589,16 @@ main {
                         flex-direction: column;
                         justify-content: center;
                         gap: 20px;
-    
+
                         h1 {
                             font-size: 40px;
                             font-weight: 300;
                         }
 
-                        p{
+                        p {
                             font-size: 13px;
                         }
-    
+
                         button {
                             width: 230px;
                             height: 60px;
@@ -1511,14 +1606,15 @@ main {
                             border: none;
                             border-radius: 50px;
                             cursor: pointer;
-                            font-size:18px;
+                            font-size: 18px;
                             color: #fff;
                         }
                     }
-    
+
                     .levarning_img {
                         width: 100%;
                         height: 50%;
+
                         img {
                             object-fit: cover;
                             background-position: center;
@@ -1526,6 +1622,87 @@ main {
                             width: 400px;
                             height: 400px;
                         }
+                    }
+                }
+
+            }
+        }
+
+        .opportunities {  
+            .opportunities_ib_container {
+                .opportunities_card:nth-child(2){
+                    display: none;
+                }
+                .opportunities_head {  
+                    button {
+                        width: 300px;
+                        height: 45px;
+                        background: none;
+                        border: none;
+                        border: 1px solid black;
+                        font-size: 20px;
+                        cursor: pointer;
+                    }
+    
+                    h1 {
+                        font-size: 40px;
+
+                    }
+                }
+    
+                .opportunities_main {
+                    width: 100%;
+                    height: auto;
+    
+                    .card_head {
+                        width: 100%;
+                        height: 50px;
+                        border-bottom: 1px solid black;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+    
+                        .card_head_right {
+                            display: flex;
+                            align-items: center;
+                            gap: 25px;
+    
+                            .bx {
+                                width: 30px;
+                                height: 30px;
+                                border-radius: 50%;
+                                cursor: pointer;
+                                background-color: red;
+                                font-size: 30px;
+                                color: white;
+                            }
+                        }
+                    }
+    
+                    .card_main {
+                        width: 100%;
+                        margin-top: 50px;
+    
+                        .i {
+                            display: flex;
+                        }
+    
+                        .bx {
+                            cursor: pointer;
+                            font-size: 30px;
+                            color: rgb(0, 0, 0);
+                        }
+                    }
+                }
+    
+                .qonday {
+                    width: 100%;
+                    height: 100px;
+                    display: flex;
+                    align-items: center;
+                    .chiziq{
+                        width: 100%;
+                        border-bottom: dotted red;
                     }
                 }
     
@@ -1647,36 +1824,36 @@ main {
 
         .levarning {
             height: 1000px;
-    
+
             .levarning_big_container {
                 width: 90%;
                 height: 90%;
-    
+
                 .levarning_container {
                     width: 100%;
                     height: 80%;
-    
+
                     .levarning_text {
                         width: 100%;
                         height: 50%;
                         gap: 15px;
-    
+
                         h1 {
                             font-size: 35px;
                             font-weight: 300;
                         }
 
-                        p{
+                        p {
                             font-size: 13px;
                         }
-    
+
                         button {
                             width: 200px;
                             height: 40px;
-                            font-size:18px;
+                            font-size: 18px;
                         }
                     }
-    
+
                     .levarning_img {
                         img {
                             object-fit: cover;
@@ -1687,7 +1864,7 @@ main {
                         }
                     }
                 }
-    
+
             }
         }
     }
@@ -1824,22 +2001,23 @@ main {
                 .levarning_container {
                     .levarning_text {
                         gap: 15px;
+
                         h1 {
                             font-size: 30px;
                             font-weight: 300;
                         }
 
-                        p{
+                        p {
                             font-size: 13px;
                         }
-    
+
                         button {
                             width: 200px;
                             height: 40px;
-                            font-size:18px;
+                            font-size: 18px;
                         }
                     }
-    
+
                     .levarning_img {
                         img {
                             object-fit: cover;
@@ -1850,18 +2028,19 @@ main {
                         }
                     }
                 }
-    
+
             }
         }
 
-        .swiss_interacation{
-            .swiss_interacation_container{
-                h1{
+        .swiss_interacation {
+            .swiss_interacation_container {
+                h1 {
                     font-size: 26px;
                     width: 95%;
                     text-align: center;
                 }
-                p{
+
+                p {
                     font-size: 13px;
                     width: 90%;
                     text-align: center;
@@ -2050,22 +2229,23 @@ main {
                 .levarning_container {
                     .levarning_text {
                         gap: 15px;
+
                         h1 {
                             font-size: 30px;
                             font-weight: 300;
                         }
 
-                        p{
+                        p {
                             font-size: 13px;
                         }
-    
+
                         button {
                             width: 200px;
                             height: 40px;
-                            font-size:18px;
+                            font-size: 18px;
                         }
                     }
-    
+
                     .levarning_img {
                         img {
                             object-fit: cover;
@@ -2076,7 +2256,7 @@ main {
                         }
                     }
                 }
-    
+
             }
         }
     }
