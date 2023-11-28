@@ -491,6 +491,100 @@ main .our_partners .partners_container .sponsor .all_img_partners {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+main .levarning {
+  position: relative;
+  margin-top: -100px;
+  width: 100%;
+  height: 800px;
+  border-radius: 100px 100px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+main .levarning .levarning_big_container {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+}
+main .levarning .levarning_big_container .levarning_container {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+main .levarning .levarning_big_container .levarning_container .levarning_text {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+main .levarning .levarning_big_container .levarning_container .levarning_text h1 {
+  font-size: 60px;
+  font-weight: 300;
+}
+main .levarning .levarning_big_container .levarning_container .levarning_text button {
+  width: 250px;
+  height: 60px;
+  background-color: red;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #fff;
+}
+main .levarning .levarning_big_container .levarning_container .levarning_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 100%;
+}
+main .levarning .levarning_big_container .levarning_container .levarning_img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+}
+main .levarning .levarning_big_container .levarning_loading {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+main .levarning .levarning_big_container .levarning_loading .levarning_next {
+  display: flex;
+  gap: 50px;
+}
+main .levarning .levarning_big_container .levarning_loading .levarning_next .bx {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+}
+main .levarning .levarning_big_container .levarning_plane_loading {
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+main .levarning .levarning_big_container .levarning_plane_loading .line {
+  margin-top: 25px;
+  width: 100%;
+  border-bottom: dotted red;
+  position: absolute;
+}
 
 @media (max-width: 1800px) {
   main {

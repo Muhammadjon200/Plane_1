@@ -497,19 +497,22 @@ main {
         justify-content: center;
         align-items: center;
         background-color: #FF3333;
-        .partners_container{
+
+        .partners_container {
             width: 90%;
             height: 90%;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            .partners_text{
+
+            .partners_text {
                 width: 35%;
                 height: 100%;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                button{
+
+                button {
                     width: 350px;
                     height: 70px;
                     border: 1px solid white;
@@ -518,37 +521,148 @@ main {
                     border-radius: 10px;
                     cursor: pointer;
                     font-weight: 100;
-                    p{
+
+                    p {
                         font-size: 20px;
                         font-weight: 100;
                     }
                 }
-                h1{
+
+                h1 {
                     font-size: 50px;
                     font-weight: 300;
                     color: white;
                     line-height: 60px;
                 }
             }
-            .sponsor{
+
+            .sponsor {
                 width: 50%;
                 height: 100%;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 gap: 25px;
-                p{
+
+                p {
                     font-size: 25px;
                     color: white;
                     font-weight: 300;
                     font-family: 'IBM Plex Sans';
                 }
-                .all_img_partners{
+
+                .all_img_partners {
                     width: 100%;
                     height: auto;
                     display: flex;
                     justify-content: space-around;
                     flex-wrap: wrap;
+                }
+            }
+        }
+    }
+
+    .levarning {
+        position: relative;
+        margin-top: -100px;
+        width: 100%;
+        height: 800px;
+        border-radius: 100px 100px 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+
+        .levarning_big_container {
+            width: 90%;
+            height: 90%;
+            display: flex;
+            flex-direction: column;
+
+            .levarning_container {
+                width: 100%;
+                height: 80%;
+                display: flex;
+                align-items: center;
+                gap: 50px;
+
+                .levarning_text {
+                    width: 40%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    gap: 20px;
+
+                    h1 {
+                        font-size: 60px;
+                        font-weight: 300;
+                    }
+
+                    button {
+                        width: 250px;
+                        height: 60px;
+                        background-color: red;
+                        border: none;
+                        border-radius: 50px;
+                        cursor: pointer;
+                        font-size: 20px;
+                        color: #fff;
+                    }
+                }
+
+                .levarning_img {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 40%;
+                    height: 100%;
+
+                    img {
+                        object-fit: cover;
+                        background-position: center;
+                        background-size: cover;
+                        width: 500px;
+                        height: 500px;
+                    }
+                }
+            }
+
+            .levarning_loading {
+                width: 100%;
+                height: 20%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 25px;
+
+                .levarning_next {
+                    display: flex;
+                    gap: 50px;
+
+                    .bx {
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        background-color: red;
+                        color: white;
+                        font-size: 40px;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .levarning_plane_loading {
+                width: 100%;
+                position: relative;
+                text-align: center;
+
+                .line {
+                    margin-top: 25px;
+                    width: 100%;
+                    border-bottom: dotted red;
+                    position: absolute;
                 }
             }
         }
@@ -1125,31 +1239,38 @@ main {
 
         .our_partners {
             height: 800px;
-            .partners_container{
+
+            .partners_container {
                 flex-direction: column;
                 justify-content: start;
                 gap: 25px;
-                .partners_text{
+
+                .partners_text {
                     width: 100%;
                     height: 40%;
-                    button{
+
+                    button {
                         width: 270px;
-                        p{
+
+                        p {
                             font-size: 18px;
                         }
                     }
-                    h1{
+
+                    h1 {
                         font-size: 40px;
                     }
                 }
-                .sponsor{
+
+                .sponsor {
                     width: 100%;
                     height: 40%;
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
                     gap: 25px;
-                    p{
+
+                    p {
                         font-size: 20px;
                         color: white;
                         font-weight: 300;
