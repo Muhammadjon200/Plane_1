@@ -97,8 +97,8 @@ main {
             h1 {
                 font-weight: 500;
                 font-size: 10rem;
-                font-family: 'IBM Plex Sans';
-                color: #21272A;
+                font-family: "IBM Plex Sans";
+                color: #21272a;
                 transition: 0.3s ease;
             }
         }
@@ -135,7 +135,7 @@ main {
         margin-top: -120px;
         width: 100%;
         height: 800px;
-        background-color: #FF3333;
+        background-color: #ff3333;
         border-radius: 100px 100px 0 0;
         display: flex;
         flex-direction: column;
@@ -184,12 +184,11 @@ main {
                     p {
                         margin-top: 50px;
                         font-size: 25px;
-                        font-family: 'IBM Plex Sans';
+                        font-family: "IBM Plex Sans";
                         font-weight: 100;
                         line-height: 40px;
                     }
                 }
-
             }
 
             .we_do_second {
@@ -445,7 +444,6 @@ main {
                     font-size: "IBM Plex Sans";
                     color: white;
                     font-size: 50px;
-
                 }
             }
 
@@ -471,14 +469,16 @@ main {
                     }
 
                     h1 {
-                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+                            sans-serif;
                         font-size: 30px;
                         font-weight: 300;
                         margin-left: 20px;
                     }
 
                     p {
-                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+                            sans-serif;
                         font-weight: 200;
                         margin-left: 20px;
                     }
@@ -496,7 +496,7 @@ main {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #FF3333;
+        background-color: #ff3333;
 
         .partners_container {
             width: 90%;
@@ -548,7 +548,7 @@ main {
                     font-size: 25px;
                     color: white;
                     font-weight: 300;
-                    font-family: 'IBM Plex Sans';
+                    font-family: "IBM Plex Sans";
                 }
 
                 .all_img_partners {
@@ -564,7 +564,7 @@ main {
 
     .levarning {
         position: relative;
-        margin-top: -100px;
+        margin-top: -150px;
         width: 100%;
         height: 800px;
         border-radius: 100px 100px 0 0;
@@ -671,7 +671,7 @@ main {
 
     .swiss_interacation {
         position: relative;
-        margin-top: -100px;
+        margin-top: -60px;
         width: 100%;
         height: 600px;
         border-radius: 100px 100px 0 0;
@@ -719,7 +719,6 @@ main {
     }
 
     .opportunities {
-        border: 1px solid black;
         position: relative;
         margin-top: -100px;
         width: 100%;
@@ -732,12 +731,11 @@ main {
 
         .opportunities_ib_container {
             width: 90%;
-            height: 80%;
+            height: auto;
             display: flex;
             justify-content: start;
             flex-direction: column;
             align-items: center;
-            border: 1px solid black;
 
             .opportunities_head {
                 display: flex;
@@ -798,6 +796,11 @@ main {
                         display: flex;
                     }
 
+                    h1 {
+                        font-size: 30px;
+                        font-weight: 300;
+                    }
+
                     .bx {
                         cursor: pointer;
                         font-size: 30px;
@@ -811,17 +814,142 @@ main {
                 height: 100px;
                 display: flex;
                 align-items: center;
-                .chiziq{
+
+                .chiziq {
                     width: 100%;
                     border-bottom: dotted red;
                 }
             }
+        }
+    }
 
+    .all_input {
+        position: relative;
+        margin-top: -80px;
+        width: 100%;
+        height: 800px;
+        border-radius: 100px 100px 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #394854;
+
+        .all_input_conatiner {
+            width: 90%;
+            height: 90%;
+            display: flex;
+            flex-direction: column;
+
+            .all_input_head {
+                width: 100%;
+                height: 10%;
+                display: flex;
+                align-items: center;
+                font-weight: 300;
+
+                h1 {
+                    font-size: 40px;
+                    font-weight: 100;
+                    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+                        sans-serif;
+                    color: #fff;
+                }
+            }
+
+            .all_input_main {
+                width: 100%;
+                height: 50%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border: 1px solid red;
+
+                .input_con_left {
+                    width: 60%;
+                    height: 100%;
+                    display: flex;
+
+                    .l,
+                    .r {
+                        width: 50%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        gap: 20px;
+
+                        p {
+                            font-size: 15px;
+                            color: rgb(227, 227, 227);
+                            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+                                sans-serif;
+                            font-weight: 200;
+                        }
+
+                        .input_cont {
+                            width: 90%;
+                            height: 40px;
+                            display: flex;
+                            align-items: end;
+                            border-bottom: 2px solid rgb(230, 230, 230);
+
+                            input {
+                                width: 100%;
+                                height: 30px;
+                                background: none;
+                                border: none;
+                            }
+                        }
+                    }
+                }
+
+                .input_con_right {
+                    width: 30%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    gap: 20px;
+                    color: #fff;
+
+                    p:nth-child(2) {
+                        width: 130px;
+                        border-bottom: 1px solid grey;
+                    }
+                }
+            }
+
+            .all_input_footer {
+                width: 100%;
+                height: 20%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                h1 {
+                    font-size: 18px;
+
+                    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+                        sans-serif;
+                }
+            }
         }
     }
 }
 
-@media(max-width: 1800px) {
+footer {
+    position: relative;
+    margin-top: -95px;
+    width: 100%;
+    height: 300px;
+    border-radius: 100px 100px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #21272a;
+}
+
+@media (max-width: 1800px) {
     main {
         margin-top: 140px;
 
@@ -843,7 +971,7 @@ main {
     }
 }
 
-@media(max-width: 1650px) {
+@media (max-width: 1650px) {
     main {
         margin-top: 130px;
 
@@ -866,7 +994,7 @@ main {
     }
 }
 
-@media(max-width: 1500px) {
+@media (max-width: 1500px) {
     header {
         .head {
             .logo {
@@ -918,7 +1046,7 @@ main {
     }
 }
 
-@media(max-width: 1400px) {
+@media (max-width: 1400px) {
     header {
         .head {
             .logo {
@@ -987,12 +1115,11 @@ main {
                         p {
                             margin-top: 50px;
                             font-size: 22px;
-                            font-family: 'IBM Plex Sans';
+                            font-family: "IBM Plex Sans";
                             font-weight: 100;
                             line-height: 35px;
                         }
                     }
-
                 }
             }
         }
@@ -1061,13 +1188,12 @@ main {
                         }
                     }
                 }
-
             }
         }
     }
 }
 
-@media(max-width: 1200px) {
+@media (max-width: 1200px) {
     header {
         .head {
             .logo {
@@ -1147,19 +1273,18 @@ main {
                         p {
                             margin-top: 50px;
                             font-size: 20px;
-                            font-family: 'IBM Plex Sans';
+                            font-family: "IBM Plex Sans";
                             font-weight: 100;
                             line-height: 30px;
                         }
                     }
-
                 }
             }
         }
 
         .levarning {
             position: relative;
-            margin-top: -100px;
+            margin-top: -110px;
             width: 100%;
             height: 800px;
             border-radius: 100px 100px 0 0;
@@ -1221,13 +1346,12 @@ main {
                         }
                     }
                 }
-
             }
         }
     }
 }
 
-@media(max-width: 992px) {
+@media (max-width: 992px) {
     header {
         .head {
             .logo {
@@ -1335,12 +1459,11 @@ main {
                             margin-top: 0;
                             text-align: center;
                             font-size: 18px;
-                            font-family: 'IBM Plex Sans';
+                            font-family: "IBM Plex Sans";
                             font-weight: 100;
                             line-height: 30px;
                         }
                     }
-
                 }
 
                 .we_do_second {
@@ -1509,14 +1632,16 @@ main {
                         }
 
                         h1 {
-                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+                                sans-serif;
                             font-size: 30px;
                             font-weight: 300;
                             margin-left: 20px;
                         }
 
                         p {
-                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+                                sans-serif;
                             font-weight: 200;
                             margin-left: 20px;
                         }
@@ -1556,13 +1681,13 @@ main {
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
-                    gap: 25px;
+                    gap: 35px;
 
                     p {
                         font-size: 20px;
                         color: white;
                         font-weight: 300;
-                        font-family: 'IBM Plex Sans';
+                        font-family: "IBM Plex Sans";
                     }
                 }
             }
@@ -1570,6 +1695,7 @@ main {
 
         .levarning {
             height: 1000px;
+            margin-top: -150px;
 
             .levarning_big_container {
                 width: 90%;
@@ -1624,16 +1750,16 @@ main {
                         }
                     }
                 }
-
             }
         }
 
-        .opportunities {  
+        .opportunities {
             .opportunities_ib_container {
-                .opportunities_card:nth-child(2){
+                .opportunities_card:nth-child(2) {
                     display: none;
                 }
-                .opportunities_head {  
+
+                .opportunities_head {
                     button {
                         width: 300px;
                         height: 45px;
@@ -1643,17 +1769,16 @@ main {
                         font-size: 20px;
                         cursor: pointer;
                     }
-    
+
                     h1 {
                         font-size: 40px;
-
                     }
                 }
-    
+
                 .opportunities_main {
                     width: 100%;
                     height: auto;
-    
+
                     .card_head {
                         width: 100%;
                         height: 50px;
@@ -1661,12 +1786,12 @@ main {
                         display: flex;
                         justify-content: space-between;
                         align-items: center;
-    
+
                         .card_head_right {
                             display: flex;
                             align-items: center;
                             gap: 25px;
-    
+
                             .bx {
                                 width: 30px;
                                 height: 30px;
@@ -1678,15 +1803,15 @@ main {
                             }
                         }
                     }
-    
+
                     .card_main {
                         width: 100%;
                         margin-top: 50px;
-    
+
                         .i {
                             display: flex;
                         }
-    
+
                         .bx {
                             cursor: pointer;
                             font-size: 30px;
@@ -1694,25 +1819,24 @@ main {
                         }
                     }
                 }
-    
+
                 .qonday {
                     width: 100%;
                     height: 100px;
                     display: flex;
                     align-items: center;
-                    .chiziq{
+
+                    .chiziq {
                         width: 100%;
                         border-bottom: dotted red;
                     }
                 }
-    
             }
         }
-
     }
 }
 
-@media(max-width: 776px) {
+@media (max-width: 776px) {
     header {
         .head {
             .logo {
@@ -1756,7 +1880,6 @@ main {
 
         .make_it_fly {
             .make_1 {
-
                 h1 {
                     width: 100%;
                     font-size: 6rem;
@@ -1864,13 +1987,22 @@ main {
                         }
                     }
                 }
+            }
+        }
 
+        .opportunities {
+            .opportunities_ib_container {
+                .opportunities_head {
+                    h1 {
+                        font-size: 30px;
+                    }
+                }
             }
         }
     }
 }
 
-@media(max-width: 576px) {
+@media (max-width: 576px) {
     main {
         .make_it_fly {
             gap: 0px;
@@ -2028,7 +2160,6 @@ main {
                         }
                     }
                 }
-
             }
         }
 
@@ -2050,7 +2181,7 @@ main {
     }
 }
 
-@media(max-width: 470px) {
+@media (max-width: 470px) {
     main {
         .make_it_fly {
             height: 220px;
@@ -2208,14 +2339,16 @@ main {
                         }
 
                         h1 {
-                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+                                sans-serif;
                             font-size: 30px;
                             font-weight: 300;
                             margin-left: 20px;
                         }
 
                         p {
-                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+                                sans-serif;
                             font-weight: 200;
                             margin-left: 20px;
                         }
@@ -2256,7 +2389,18 @@ main {
                         }
                     }
                 }
+            }
+        }
 
+        .opportunities {
+            height: 1150px;
+
+            .opportunities_ib_container {
+                .opportunities_head {
+                    h1 {
+                        font-size: 25px;
+                    }
+                }
             }
         }
     }
