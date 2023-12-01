@@ -20,9 +20,9 @@
     right: 0;
 }
 
-.muhammadjon.side_bar_in {
+.side_bar_in {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -564,7 +564,7 @@ main {
         background-color: #ff3333;
 
         .partners_container {
-            width: 90%;
+            width: 80%;
             height: 90%;
             display: flex;
             justify-content: space-between;
@@ -575,7 +575,6 @@ main {
                 height: 100%;
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
 
                 button {
                     width: 350px;
@@ -606,7 +605,6 @@ main {
                 height: 100%;
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
                 gap: 25px;
 
                 p {
